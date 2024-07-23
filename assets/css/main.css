@@ -2001,6 +2001,8 @@ input, select, textarea {
 
 		}
 
+		
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -2393,6 +2395,13 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+		.project-image {
+				width: 100%; /* Ensures the image fits the container */
+				height: auto; /* Maintains the aspect ratio */
+				object-fit: cover; /* Ensures the image covers the entire container without stretching */
+				border: 2px solid #000; /* Adds a black border around the image */
+				border-radius: 8px; /* Optional: Adds rounded corners to the border */
+			}	
 
 /* List */
 
