@@ -2400,7 +2400,7 @@ input, select, textarea {
     width: 300px; /* Or any other desired width */
     height: 300px; /* Or any other desired height */
     object-fit: fill;/* Ensures the image covers the entire container without stretching */
-    border: 2px solid #000; /* Adds a black border around the image */
+    border: 2px solid #747373; /* Adds a black border around the image */
     border-radius: 8px; /* Optional: Adds rounded corners to the border */
 }
 
@@ -2928,7 +2928,7 @@ input, select, textarea {
 			.main.style2 .icon.major {
 				color: #ffffff;
 			}
-
+		
 /* Header */
 
 	#header {
