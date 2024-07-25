@@ -2945,7 +2945,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
-		background-image: url("images/javeria-zaheer-header.jpg");
+		background-image: url("../../images/javeria-zaheer-header_gtpesg_c_scale\,w_1400.jpg");
 		background-position: center;
 		background-size: cover;
 		overflow: hidden;
@@ -3569,3 +3569,41 @@ input, select, textarea {
 	.carousel-nav.right {
 		right: 0;
 	}
+
+	/* General Styles for Activity Cards */
+.activity-card {
+    margin-bottom: 30px; /* Space between cards */
+}
+
+.activity-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Styles for large screens */
+@media (min-width: 768px) {
+    .activity-card .card {
+        display: flex;
+    }
+    .activity-card .card-body {
+        display: flex;
+        flex-direction: row;
+    }
+    .activity-card .activity-image {
+        max-width: 100%; /* Ensure the image doesn't overflow */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Styles for small screens */
+@media (max-width: 767px) {
+    .activity-card .card {
+        display: block;
+    }
+    .activity-card .card-body {
+        display: block;
+    }
+    .activity-card .activity-image {
+        margin-bottom: 15px; /* Space between image and text */
+    }
+}
