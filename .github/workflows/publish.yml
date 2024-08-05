@@ -52,7 +52,9 @@ jobs:
       - name: Build with Next.js 🏗️
         env:
           NODE_OPTIONS: '--openssl-legacy-provider'
-        run: npm run build
+        run: |
+          npm run build
+          npm run export
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
