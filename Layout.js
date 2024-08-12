@@ -1,6 +1,6 @@
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
+import GoogleAnalytics from './Components/GoogleAnalytics'
 const Layout = ({children, toggleTheme, currentTheme}) => {
     return (
         <div>
