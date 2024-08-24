@@ -45,7 +45,7 @@ export const userinfo = {
     about: {
         //this text goes at the bottom of your home page.
         content: "I am on a journey to achieve excellence in building products that bring ease to others and find contentment through this process. As a lifelong learner, I immerse myself in reading, writing, coding, and exploring new technologies. This summer, I am focused on improving my coding practices and integrating AI into my projects to evolve into a well-rounded software engineer",
-        resume: "https://drive.google.com/file/d/1aR9yVT1Oy2L63FlRENGSUdWogGUdbKgN/view?usp=sharing" //link your resume here. it can be drive link or any other link
+        resume: "https://drive.google.com/file/d/17iDvKETtbPxvMMaf7pudDfopei9AWo3w/view?usp=sharing" //link your resume here. it can be drive link or any other link
     },
     education: {
         visible: true, //set this to false if you want to omit this section
