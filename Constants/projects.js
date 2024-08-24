@@ -14,6 +14,15 @@ export const projects = [
         photo: '/images/project1.png', //list of names of images from above imports.
     },
     {
+        name: 'Assist AI',
+        description: 'An AI customer assistance chatbot built for Headstarter AI SWE Fellowship.',
+        githubLink: 'https://github.com/javeria2108/AI-customer-assistance',
+        projectLink: 'https://assistai-lime.vercel.app/',
+        tech: ['Next JS', 'Typescript','Neon DB', 'Tailwind CSS'],
+        photo: '/images/project5.png',
+    },
+   
+    {
         name: 'AI Prompts Hub',
         description: 'A full stack application made with Next js to share and search for AI prompts to use in chat GPT and other AI platforms',
         githubLink: 'https://github.com/javeria2108/Promptopia',
@@ -30,6 +39,14 @@ export const projects = [
         photo: '/images/project3.png',
     },
     {
+        name: 'CardHunt',
+        description: 'Learn through AI generated flashcards with your friends, store flashcards to study later.',
+        githubLink: 'https://github.com/javeria2108/CardHunt',
+        projectLink: 'https://card-hunt.vercel.app/',
+        tech: ['Next JS', 'Typescript','Postgresql', 'Tailwind CSS'],
+        photo: '/images/project6.png',
+    },
+    {
         name: 'Chat App',
         description: 'This is a real-time chat application built using Next.js, Firebase, and Chakra UI. The app supports user authentication via Google Sign-In, real-time messaging, and displays a list of active chats.',
         githubLink: 'https://github.com/javeria2108/Full-Stack-Chat-App-with-NextJs-Firebase-and-ChakraUI',
@@ -37,6 +54,7 @@ export const projects = [
         tech: ['Next JS', 'Chakra UI', 'Firebase'],
         photo: '/images/project4.jpg',
     },
+    
   
     
 ]
